@@ -444,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EuroMeasure-Module.kicad_pro",
+    "filename": "EuroMeasure-IonGaugeController.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -471,7 +471,10 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(U1-AVDD)": "Power",
+      "Net-(U1-DVDD)": "Power"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -535,8 +538,20 @@
       ""
     ],
     [
+      "3a5c6aa2-1776-4634-b734-5c4f985f89ad",
+      "Grid Supply"
+    ],
+    [
       "abf38db6-df21-42a4-a2d8-4fd7d247b99e",
       "EuroMeasure"
+    ],
+    [
+      "449456dc-cc65-4cd2-bcc1-ae800fbe727f",
+      "Anode Supply"
+    ],
+    [
+      "192a135a-32d5-437a-a3cf-556f2261accf",
+      "Cathode Supply"
     ]
   ],
   "text_variables": {}
