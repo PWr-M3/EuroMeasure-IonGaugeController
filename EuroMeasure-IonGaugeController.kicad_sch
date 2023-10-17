@@ -5,7 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "EuroMeasure blank module")
+    (title "EuroMeasure Ion Gauge Controller")
+    (date "2023-10-17")
+    (rev "1.0.0")
   )
 
   (lib_symbols
@@ -121,7 +123,7 @@
     )
     (pin "1" (uuid 3cd4a2ed-cb81-4ea7-8ca7-547a7564e63e))
     (instances
-      (project "EuroMeasure-Module"
+      (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "TP909") (unit 1)
         )
@@ -157,7 +159,7 @@
     )
     (pin "1" (uuid 5bcf12c0-504e-4e64-ac1d-9dfc6f5bd4b7))
     (instances
-      (project "EuroMeasure-Module"
+      (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "TP908") (unit 1)
         )
@@ -193,7 +195,7 @@
     )
     (pin "1" (uuid 3e733590-5634-4a25-bad5-2583b9d4d89a))
     (instances
-      (project "EuroMeasure-Module"
+      (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "TP910") (unit 1)
         )
@@ -229,7 +231,7 @@
     )
     (pin "1" (uuid c0e041c5-3853-4ee1-a36d-80242b3110a8))
     (instances
-      (project "EuroMeasure-Module"
+      (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "TP906") (unit 1)
         )
@@ -265,7 +267,7 @@
     )
     (pin "1" (uuid 786b0461-034e-4ea1-90d6-6af9cde5a35f))
     (instances
-      (project "EuroMeasure-Module"
+      (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "TP907") (unit 1)
         )
@@ -431,7 +433,7 @@
       (uuid a3b12790-7929-4f5b-893d-e1acbfbac18b)
     )
     (instances
-      (project "EuroMeasure-Module"
+      (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad" (page "3"))
       )
     )
