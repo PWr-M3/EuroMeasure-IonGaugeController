@@ -2643,6 +2643,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5752ff7c-b842-4af2-a77c-5b6f486768d1)
   )
+  (label "5V_Lockouted" (at 74.93 67.31 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a106d3a5-88ae-4593-8426-3d46443ad99c)
+  )
 
   (global_label "~{LOCKOUT}" (shape input) (at 52.07 67.31 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -3508,8 +3512,8 @@
     (property "Datasheet" "~" (at 246.38 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f9836df6-b82c-4534-8a79-4968c7d3cd74))
-    (pin "2" (uuid 765f5d76-b3f3-4f58-834a-e4caae719278))
+    (pin "1" (uuid 6ef2e57f-3a7c-4d05-84b9-5b64e568cc39))
+    (pin "2" (uuid 7440a85d-b9bc-47e6-85fb-e2af024af965))
     (instances
       (project "gvpsu2"
         (path "/42382a39-6a07-4672-9b70-170e525e778c"
@@ -4572,14 +4576,14 @@
     (property "Mouser" "595-TL082IDRQ1" (at 158.75 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40235e67-e1f6-4841-abc8-f84589212e32))
-    (pin "2" (uuid f0245d98-b920-4cb0-855a-13417432ba4f))
-    (pin "3" (uuid 563caacf-5d23-4c87-92e3-378b67884ba5))
+    (pin "1" (uuid 40235e67-e1f6-4841-abc8-f84589212e33))
+    (pin "2" (uuid f0245d98-b920-4cb0-855a-13417432ba50))
+    (pin "3" (uuid 563caacf-5d23-4c87-92e3-378b67884ba6))
     (pin "5" (uuid 2aaf0799-3775-4230-8a1c-c1419809f53d))
     (pin "6" (uuid 4b3790a7-4526-4f19-9a74-ceea7ba558d3))
     (pin "7" (uuid 3bf1f41a-c8be-4b3a-891e-de4ce9614d38))
-    (pin "4" (uuid 8981b88c-3740-491b-bb2b-aceb66185dd9))
-    (pin "8" (uuid 3b9a0191-d86e-4fcf-b7b8-0817fe543747))
+    (pin "4" (uuid 8981b88c-3740-491b-bb2b-aceb66185dda))
+    (pin "8" (uuid 3b9a0191-d86e-4fcf-b7b8-0817fe543748))
     (instances
       (project "EuroMeasure-SYMHV"
         (path "/0b6687ad-23e8-4c23-a628-72b846508c2b"
