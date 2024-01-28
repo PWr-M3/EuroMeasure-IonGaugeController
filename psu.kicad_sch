@@ -11,41 +11,6 @@
   )
 
   (lib_symbols
-    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 6.858 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_0_1"
-        (circle (center 0 3.302) (radius 0.762)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TestPoint_1_1"
-        (pin passive line (at 0 0 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -202,6 +167,44 @@
         (pin power_in line (at -7.62 0 0) (length 2.54)
           (name "VI" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "MEMS_Other:TP_1mm_via" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom no) (on_board yes)
+      (property "Reference" "TP" (at 0 6.858 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "MEMS_Custom:TestPoint_Pad_D1.0mm" (at 0 -6.985 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 -10.795 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TP_1mm_via_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TP_1mm_via_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -795,7 +798,7 @@
   (symbol (lib_id "power:GND") (at 166.37 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 011af7c6-afc1-4ec7-98fb-3c1e931fe8f0)
-    (property "Reference" "#PWR052" (at 166.37 90.17 0)
+    (property "Reference" "#PWR0102" (at 166.37 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 88.9 0)
@@ -811,7 +814,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -820,7 +823,7 @@
   (symbol (lib_id "Device:C_Small") (at 125.73 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 091b05c9-4eed-489c-927d-72f4b7f9c886)
-    (property "Reference" "C18" (at 129.54 76.1999 0)
+    (property "Reference" "C53" (at 129.54 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 129.54 78.7399 0)
@@ -837,7 +840,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "C18") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -846,7 +849,7 @@
   (symbol (lib_id "MEMS_IC:AZ1117IH-3.3TRG1-SOT223") (at 152.4 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09592a02-381f-4d19-ab5f-4c4e03180528)
-    (property "Reference" "U4" (at 152.4 64.77 0)
+    (property "Reference" "U10" (at 152.4 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AZ1117-3V3" (at 152.4 67.31 0)
@@ -870,7 +873,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "U4") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -879,7 +882,7 @@
   (symbol (lib_id "MEMS_Passive:C_Elec-220uf-50V") (at 144.78 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0eaf28f4-afe7-412a-962a-ac55335e6518)
-    (property "Reference" "C1" (at 147.32 139.7 90)
+    (property "Reference" "C55" (at 147.32 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220uF 50V" (at 149.86 139.7 90)
@@ -902,7 +905,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "C1") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -911,7 +914,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 137.16 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 378cbbe1-7625-4bfd-a4ac-50169c88a365)
-    (property "Reference" "C19" (at 140.97 75.3109 0)
+    (property "Reference" "C54" (at 140.97 75.3109 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 140.97 77.8509 0)
@@ -928,7 +931,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "C19") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -937,7 +940,7 @@
   (symbol (lib_id "power:GND") (at 177.8 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39a87c65-04b9-477f-b6d4-75364cdf4fdd)
-    (property "Reference" "#PWR053" (at 177.8 90.17 0)
+    (property "Reference" "#PWR0103" (at 177.8 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 88.9 0)
@@ -953,7 +956,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -962,7 +965,7 @@
   (symbol (lib_id "power:GND") (at 144.78 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45cbe352-c9b1-4f7d-83cf-f331d31e0784)
-    (property "Reference" "#PWR02" (at 144.78 146.05 0)
+    (property "Reference" "#PWR099" (at 144.78 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 144.78 0)
@@ -978,7 +981,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -987,7 +990,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 125.73 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61bad806-9f38-4cb3-acad-5fee9466b7c8)
-    (property "Reference" "#FLG03" (at 125.73 67.945 0)
+    (property "Reference" "#FLG06" (at 125.73 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 124.46 66.04 0)
@@ -1003,7 +1006,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG06") (unit 1)
         )
       )
     )
@@ -1044,7 +1047,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 177.8 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80abfc07-b53f-4c0a-925d-b13c989265b9)
-    (property "Reference" "C21" (at 181.61 75.3109 0)
+    (property "Reference" "C58" (at 181.61 75.3109 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 181.61 77.8509 0)
@@ -1061,7 +1064,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "C21") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -1070,7 +1073,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 154.94 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 845011e5-fe65-4561-8d99-5e1919e8b45a)
-    (property "Reference" "#FLG05" (at 154.94 125.095 0)
+    (property "Reference" "#FLG07" (at 154.94 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 157.48 121.92 0)
@@ -1086,7 +1089,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG07") (unit 1)
         )
       )
     )
@@ -1095,7 +1098,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85372c28-ffd5-40a5-aac6-268d4982144c)
-    (property "Reference" "C20" (at 170.18 76.1999 0)
+    (property "Reference" "C57" (at 170.18 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 170.18 78.7399 0)
@@ -1112,7 +1115,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "C20") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -1121,7 +1124,7 @@
   (symbol (lib_id "MEMS_Passive:C_Elec-220uf-50V") (at 154.94 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0c2a143-fa45-4c81-b814-87ff8525625b)
-    (property "Reference" "C2" (at 157.48 139.7 90)
+    (property "Reference" "C56" (at 157.48 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220uF 50V" (at 160.02 139.7 90)
@@ -1144,7 +1147,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "C2") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -1153,7 +1156,7 @@
   (symbol (lib_id "power:GND") (at 137.16 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a64b103b-cddc-4b56-8cf1-31651261c211)
-    (property "Reference" "#PWR043" (at 137.16 90.17 0)
+    (property "Reference" "#PWR098" (at 137.16 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 88.9 0)
@@ -1169,7 +1172,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -1178,7 +1181,7 @@
   (symbol (lib_id "power:GND") (at 154.94 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b48e6711-67db-4dca-9984-780237768dfd)
-    (property "Reference" "#PWR03" (at 154.94 146.05 0)
+    (property "Reference" "#PWR0101" (at 154.94 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 144.78 0)
@@ -1194,7 +1197,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -1203,7 +1206,7 @@
   (symbol (lib_id "MEMS_Passive:L_220u_10x10") (at 149.86 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c603a6f7-689b-4730-8fa7-1aab5e2a2f97)
-    (property "Reference" "L1" (at 149.86 121.92 90)
+    (property "Reference" "L6" (at 149.86 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220u" (at 149.86 124.46 90)
@@ -1226,14 +1229,14 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "L1") (unit 1)
+          (reference "L6") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 173.99 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "MEMS_Other:TP_1mm_via") (at 173.99 69.85 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid cdae3de1-f318-4fe6-ae9f-2d3ba984c293)
     (property "Reference" "TP17" (at 172.72 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1241,10 +1244,13 @@
     (property "Value" "3V3" (at 172.72 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MEMS_Custom:TestPoint_Pad_D1.0mm" (at 179.07 69.85 0)
+    (property "Footprint" "MEMS_Custom:TestPoint_Pad_D1.0mm" (at 173.99 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 179.07 69.85 0)
+    (property "Datasheet" "~" (at 173.99 80.645 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 173.99 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 875aee1b-dcfa-4ce8-8f5b-060b3278aea7))
@@ -1260,7 +1266,7 @@
   (symbol (lib_id "power:GND") (at 152.4 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efe6e03f-d47f-4d18-9bc5-5c14d06d6415)
-    (property "Reference" "#PWR048" (at 152.4 90.17 0)
+    (property "Reference" "#PWR0100" (at 152.4 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 88.9 0)
@@ -1276,7 +1282,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -1285,7 +1291,7 @@
   (symbol (lib_id "MEMS_Protection:Polyfuse-2A-60V-3425L200/60MR") (at 138.43 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2032612-44b5-4f0b-8ca9-2246c69c3976)
-    (property "Reference" "F1" (at 138.43 121.92 90)
+    (property "Reference" "F3" (at 138.43 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Polyfuse 2A" (at 138.43 125.73 90)
@@ -1308,7 +1314,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "F1") (unit 1)
+          (reference "F3") (unit 1)
         )
       )
     )
@@ -1317,7 +1323,7 @@
   (symbol (lib_id "power:GND") (at 125.73 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8d79c5d-5034-4fb8-a274-95a9022fe6ea)
-    (property "Reference" "#PWR041" (at 125.73 90.17 0)
+    (property "Reference" "#PWR097" (at 125.73 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 88.9 0)
@@ -1333,7 +1339,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/e5a0b935-342a-47e2-8c6a-59d9ed979700"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )

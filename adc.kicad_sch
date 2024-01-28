@@ -732,7 +732,7 @@
   (symbol (lib_id "Device:R_Small") (at 134.62 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0304c5bb-437e-4739-9a5c-b058786455de)
-    (property "Reference" "R1" (at 136.525 48.2599 0)
+    (property "Reference" "R39" (at 136.525 48.2599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1" (at 136.525 50.7999 0)
@@ -749,7 +749,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "R1") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -758,7 +758,7 @@
   (symbol (lib_id "power:GND") (at 124.46 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1522cc35-f468-47de-984e-df6a57f49644)
-    (property "Reference" "#PWR07" (at 124.46 63.5 0)
+    (property "Reference" "#PWR072" (at 124.46 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 62.23 0)
@@ -774,7 +774,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -783,7 +783,7 @@
   (symbol (lib_id "power:GND") (at 134.62 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 187908c2-ba03-456b-af88-723a491ead16)
-    (property "Reference" "#PWR09" (at 134.62 115.57 0)
+    (property "Reference" "#PWR073" (at 134.62 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 114.3 0)
@@ -799,7 +799,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -808,7 +808,7 @@
   (symbol (lib_id "power:GND") (at 147.32 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cfb4779-57d4-4fdf-af60-5063b0cfc4e0)
-    (property "Reference" "#PWR012" (at 147.32 114.3 0)
+    (property "Reference" "#PWR075" (at 147.32 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 109.22 0)
@@ -824,7 +824,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -833,7 +833,7 @@
   (symbol (lib_id "Device:C_Small") (at 153.67 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2edcbc98-d5f0-41bf-a8b5-0fb60d13cf1a)
-    (property "Reference" "C5" (at 153.6763 49.53 90)
+    (property "Reference" "C45" (at 153.6763 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u" (at 153.6763 52.07 90)
@@ -850,7 +850,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "C5") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
     )
@@ -859,7 +859,7 @@
   (symbol (lib_id "power:GND") (at 198.12 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4716b80d-79bb-4a6c-ace2-a695ebf24511)
-    (property "Reference" "#PWR016" (at 198.12 95.25 0)
+    (property "Reference" "#PWR078" (at 198.12 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 93.98 0)
@@ -875,7 +875,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -884,7 +884,7 @@
   (symbol (lib_id "power:GND") (at 142.24 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e025648-14aa-46f7-9aa4-e6734375b746)
-    (property "Reference" "#PWR010" (at 142.24 123.19 0)
+    (property "Reference" "#PWR074" (at 142.24 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 121.92 0)
@@ -900,7 +900,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -909,7 +909,7 @@
   (symbol (lib_id "power:GND") (at 157.48 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bac3b2e0-0a85-4d15-bba3-7a528c4c9bf0)
-    (property "Reference" "#PWR013" (at 157.48 63.5 0)
+    (property "Reference" "#PWR076" (at 157.48 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 62.23 0)
@@ -925,7 +925,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -934,7 +934,7 @@
   (symbol (lib_id "power:GND") (at 121.92 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb02a635-8556-42c2-9912-9ed3e8757e8a)
-    (property "Reference" "#PWR06" (at 121.92 105.41 0)
+    (property "Reference" "#PWR071" (at 121.92 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 104.14 0)
@@ -950,7 +950,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -993,7 +993,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 134.62 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce616da6-d558-4b0f-8020-d17fa7864703)
-    (property "Reference" "#FLG01" (at 136.525 53.34 0)
+    (property "Reference" "#FLG04" (at 136.525 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 138.43 53.975 90)
@@ -1009,7 +1009,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -1018,7 +1018,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 147.32 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7190157-1acc-4508-a851-b0976b4846f4)
-    (property "Reference" "#FLG02" (at 145.415 53.34 0)
+    (property "Reference" "#FLG05" (at 145.415 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 143.51 52.705 90)
@@ -1034,7 +1034,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG05") (unit 1)
         )
       )
     )
@@ -1043,7 +1043,7 @@
   (symbol (lib_id "Device:C_Small") (at 142.24 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbeb18b6-d80e-4d0f-9980-f7af9b089edc)
-    (property "Reference" "C4" (at 144.78 114.3 0)
+    (property "Reference" "C44" (at 144.78 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 144.78 116.84 0)
@@ -1060,7 +1060,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "C4") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -1069,7 +1069,7 @@
   (symbol (lib_id "Device:C_Small") (at 198.12 85.09 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2ab9b54-ebd8-4fcf-93d6-05688d1728e8)
-    (property "Reference" "C6" (at 200.66 83.8136 0)
+    (property "Reference" "C46" (at 200.66 83.8136 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 200.66 86.3536 0)
@@ -1086,7 +1086,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "C6") (unit 1)
+          (reference "C46") (unit 1)
         )
       )
     )
@@ -1095,7 +1095,7 @@
   (symbol (lib_id "power:GND") (at 182.88 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7dcabf9-be21-4f6a-ac35-da70dc84f680)
-    (property "Reference" "#PWR015" (at 182.88 105.41 0)
+    (property "Reference" "#PWR077" (at 182.88 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 104.14 0)
@@ -1111,7 +1111,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -1120,7 +1120,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbe74607-31da-438a-847c-7a185003de02)
-    (property "Reference" "C3" (at 129.54 49.53 90)
+    (property "Reference" "C43" (at 129.54 49.53 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 129.54 52.07 90)
@@ -1137,7 +1137,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "C3") (unit 1)
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -1146,7 +1146,7 @@
   (symbol (lib_id "Device:R_Small") (at 147.32 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd8804c9-f71e-4b15-a7fb-e1c63b2745bd)
-    (property "Reference" "R2" (at 142.24 48.26 0)
+    (property "Reference" "R40" (at 142.24 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10" (at 142.24 50.8 0)
@@ -1163,7 +1163,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "R2") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -1172,7 +1172,7 @@
   (symbol (lib_id "MEMS_IC:ADS131M04-WQFN") (at 154.94 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe3be85d-a0a1-4c39-a182-4c38ad7d3230)
-    (property "Reference" "U1" (at 138.43 62.23 0)
+    (property "Reference" "U8" (at 138.43 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ADS131M04-WQFN" (at 153.67 105.41 0)
@@ -1214,7 +1214,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/8647b0da-fa27-42a5-91f6-9b9bb070f7f7"
-          (reference "U1") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )

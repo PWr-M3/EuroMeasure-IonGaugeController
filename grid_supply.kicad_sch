@@ -1383,7 +1383,7 @@
       (property "Reference" "FL2015-4L" (at 4.445 -15.24 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "" (at 3.81 -22.225 0)
+      (property "Value" "FL2015-4L" (at 3.81 -26.67 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Footprint" "MEMS_Passive:T_FL2015" (at 3.81 -22.225 0)
@@ -1392,7 +1392,7 @@
       (property "Datasheet" "https://www.coilcraft.com/getmedia/6651db01-d153-47d9-8a27-4758c28bff0d/fl.pdf" (at 3.175 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MPN" "NO_MPN" (at 3.81 -22.225 0)
+      (property "MPN" "NO_MPN" (at 3.175 -24.13 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "T_FL2015-4L_0_1"
@@ -2538,7 +2538,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "R10") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2607,7 +2607,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "R3") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2637,7 +2637,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -2680,7 +2680,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "D3") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2774,7 +2774,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2783,7 +2783,7 @@
   (symbol (lib_id "power:GNDD") (at 190.5 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c187392-a46e-40c1-aa6a-b86db98ba392)
-    (property "Reference" "#PWR028" (at 190.5 130.81 0)
+    (property "Reference" "#PWR036" (at 190.5 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 190.5 128.27 0)
@@ -2799,7 +2799,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -2830,7 +2830,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "R6") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2839,7 +2839,7 @@
   (symbol (lib_id "power:-15V") (at 115.57 181.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 349942ad-818c-4403-9385-82ffb23989ca)
-    (property "Reference" "#PWR022" (at 115.57 184.15 0)
+    (property "Reference" "#PWR028" (at 115.57 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-15V" (at 115.57 186.69 0)
@@ -2855,7 +2855,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2907,7 +2907,7 @@
   (symbol (lib_id "power:GNDD") (at 219.71 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ade21b2-599d-4e13-891b-86d7ee390d3e)
-    (property "Reference" "#PWR033" (at 219.71 121.92 0)
+    (property "Reference" "#PWR039" (at 219.71 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 219.71 119.38 0)
@@ -2923,7 +2923,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -2932,7 +2932,7 @@
   (symbol (lib_id "MEMS_Passive:C_1210_1nF_1000V_X7R") (at 172.72 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3aebbc56-1982-4600-bcbe-7ce315dc4509)
-    (property "Reference" "C13" (at 175.26 49.5363 0)
+    (property "Reference" "C12" (at 175.26 49.5363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n X7R" (at 175.26 52.0763 0)
@@ -2955,7 +2955,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "C13") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2985,7 +2985,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3104,7 +3104,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "D5") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -3113,7 +3113,7 @@
   (symbol (lib_id "power:GNDD") (at 184.15 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 503c66b6-ecb5-4ea2-b16d-2c560a13033b)
-    (property "Reference" "#PWR030" (at 184.15 130.81 0)
+    (property "Reference" "#PWR034" (at 184.15 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 184.15 128.27 0)
@@ -3129,7 +3129,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3159,7 +3159,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "EuroMeasure-RFPA"
@@ -3195,7 +3195,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "C12") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3297,7 +3297,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "D1") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3364,7 +3364,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3433,7 +3433,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "R8") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3442,7 +3442,7 @@
   (symbol (lib_id "power:GNDD") (at 157.48 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ee98567-5024-4468-b65d-59ccef93eeb6)
-    (property "Reference" "#PWR026" (at 157.48 62.23 0)
+    (property "Reference" "#PWR032" (at 157.48 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 157.48 59.69 0)
@@ -3458,7 +3458,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3525,7 +3525,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -3556,7 +3556,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3565,7 +3565,7 @@
   (symbol (lib_id "MEMS_Passive:R_1210_820Ohm") (at 149.86 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abc11a75-ccf7-43dd-ac8b-b7e7d7b044cb)
-    (property "Reference" "R45" (at 152.4 78.74 90)
+    (property "Reference" "R8" (at 152.4 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R_1210_820Ohm" (at 152.4 81.28 90)
@@ -3588,7 +3588,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "R45") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3619,7 +3619,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3650,7 +3650,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "R5") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3662,7 +3662,7 @@
     (property "Reference" "FL2" (at 134.62 56.515 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "~" (at 123.825 64.77 0)
+    (property "Value" "FL2015-4L" (at 123.825 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "MEMS_Passive:T_FL2015" (at 143.51 63.5 0)
@@ -3732,7 +3732,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "D2") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3741,7 +3741,7 @@
   (symbol (lib_id "power:GNDD") (at 172.72 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c54e181e-6af4-45ac-be30-36aadc66c76a)
-    (property "Reference" "#PWR027" (at 172.72 77.47 0)
+    (property "Reference" "#PWR033" (at 172.72 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 172.72 74.93 0)
@@ -3757,7 +3757,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3766,7 +3766,7 @@
   (symbol (lib_id "MEMS_Passive:R_1210_1k_5%") (at 194.31 34.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca8cbecb-dc0b-474e-9b00-bbcbab6f9d02)
-    (property "Reference" "R7" (at 194.31 29.21 90)
+    (property "Reference" "R11" (at 194.31 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k 0.5W" (at 194.31 31.75 90)
@@ -3789,7 +3789,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "R7") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3819,7 +3819,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3828,7 +3828,7 @@
   (symbol (lib_id "power:GND") (at 129.54 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfc82f4b-5f64-43ae-bddb-e3b803742aca)
-    (property "Reference" "#PWR024" (at 129.54 176.53 0)
+    (property "Reference" "#PWR029" (at 129.54 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 172.72 0)
@@ -3844,7 +3844,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -3874,7 +3874,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3883,7 +3883,7 @@
   (symbol (lib_id "power:+15V") (at 115.57 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d252022d-86e7-4ae3-97c6-5afe1aa8ff67)
-    (property "Reference" "#PWR021" (at 115.57 160.02 0)
+    (property "Reference" "#PWR027" (at 115.57 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 115.57 151.13 0)
@@ -3899,7 +3899,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3908,7 +3908,7 @@
   (symbol (lib_id "power:+5V") (at 201.93 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d44a8704-7f07-4505-849d-2202369fee43)
-    (property "Reference" "#PWR032" (at 201.93 114.3 0)
+    (property "Reference" "#PWR038" (at 201.93 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 205.74 110.49 0)
@@ -3924,7 +3924,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -3967,7 +3967,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "D4") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -3998,7 +3998,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "R9") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4028,7 +4028,7 @@
       )
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/3a5c6aa2-1776-4634-b734-5c4f985f89ad"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "EuroMeasure-RFPA"

@@ -353,7 +353,7 @@
   (symbol (lib_id "power:GND") (at 134.62 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03d1aa0e-6994-4b8b-83cd-780852b29664)
-    (property "Reference" "#PWR034" (at 134.62 109.22 0)
+    (property "Reference" "#PWR087" (at 134.62 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 107.95 0)
@@ -369,7 +369,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/44c02725-ef07-40c2-83a3-a15b117f305b"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -378,7 +378,7 @@
   (symbol (lib_id "MEMS_Passive:R_0805_100R_0.1%_5PPM") (at 134.62 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d5076af-329c-40c4-a5d4-eb779be5a155)
-    (property "Reference" "R11" (at 132.08 88.9 0)
+    (property "Reference" "R45" (at 132.08 88.9 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100R 0.1% 5PPM" (at 132.08 91.44 0)
@@ -401,7 +401,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/44c02725-ef07-40c2-83a3-a15b117f305b"
-          (reference "R11") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -410,7 +410,7 @@
   (symbol (lib_id "MEMS_Passive:R_0805_100R_0.1%_5PPM") (at 134.62 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f2175db-55d6-4bf1-8059-27e6f0e11bc2)
-    (property "Reference" "R12" (at 132.08 95.25 0)
+    (property "Reference" "R46" (at 132.08 95.25 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100R 0.1% 5PPM" (at 132.08 97.79 0)
@@ -433,7 +433,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/44c02725-ef07-40c2-83a3-a15b117f305b"
-          (reference "R12") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -442,7 +442,7 @@
   (symbol (lib_id "power:GND") (at 148.59 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67a577a7-16e3-4045-8faa-a8a8de8637d8)
-    (property "Reference" "#PWR035" (at 148.59 109.22 0)
+    (property "Reference" "#PWR088" (at 148.59 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 107.95 0)
@@ -458,7 +458,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/44c02725-ef07-40c2-83a3-a15b117f305b"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -467,7 +467,7 @@
   (symbol (lib_id "MEMS_Discrete-semiconductor:D_Zener_2V4_dual_MMBZ5221BS") (at 158.75 97.79 270) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2f138ed-5a4a-48eb-ac58-d2dcb1ac0509)
-    (property "Reference" "DZ2" (at 161.29 96.52 90)
+    (property "Reference" "DZ3" (at 161.29 96.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2V4" (at 161.29 99.06 90)
@@ -492,7 +492,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/44c02725-ef07-40c2-83a3-a15b117f305b"
-          (reference "DZ2") (unit 2)
+          (reference "DZ3") (unit 2)
         )
       )
     )
@@ -501,7 +501,7 @@
   (symbol (lib_id "power:GND") (at 158.75 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid babf2fb4-f5cf-4024-b676-b73af91ee363)
-    (property "Reference" "#PWR036" (at 158.75 109.22 0)
+    (property "Reference" "#PWR089" (at 158.75 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.75 107.95 0)
@@ -517,7 +517,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/44c02725-ef07-40c2-83a3-a15b117f305b"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -526,7 +526,7 @@
   (symbol (lib_id "Device:R_Small") (at 142.24 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc148aeb-a3dd-4fa3-ac08-217ccd43fb72)
-    (property "Reference" "R13" (at 142.24 77.47 90)
+    (property "Reference" "R47" (at 142.24 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 142.24 80.01 90)
@@ -543,7 +543,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/44c02725-ef07-40c2-83a3-a15b117f305b"
-          (reference "R13") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -552,7 +552,7 @@
   (symbol (lib_id "Device:C_Small") (at 148.59 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5877116-4d92-4303-b337-b9ea30e0010c)
-    (property "Reference" "C17" (at 152.4 92.71 90)
+    (property "Reference" "C52" (at 152.4 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 144.78 92.71 90)
@@ -569,7 +569,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/44c02725-ef07-40c2-83a3-a15b117f305b"
-          (reference "C17") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -578,7 +578,7 @@
   (symbol (lib_id "MEMS_Discrete-semiconductor:D_Zener_2V4_dual_MMBZ5221BS") (at 158.75 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fae836e9-95aa-4107-9d6f-92a55072d62b)
-    (property "Reference" "DZ2" (at 161.29 87.63 90)
+    (property "Reference" "DZ3" (at 161.29 87.63 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2V4" (at 161.29 90.17 90)
@@ -603,7 +603,7 @@
     (instances
       (project "EuroMeasure-IonGaugeController"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/44c02725-ef07-40c2-83a3-a15b117f305b"
-          (reference "DZ2") (unit 1)
+          (reference "DZ3") (unit 1)
         )
       )
     )
